@@ -1,10 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
-/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);*/
+/*@import url('https://fonts.googleapis.com/css?family=Ubuntu');*/
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
 
 body, html {
     font-family: 'Open Sans', sans-serif;
     /*font-family: 'Ubuntu', sans-serif !important;*/
+    /*font-family: 'Cuprum', sans-serif;*/
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     color: #5a5a5a;
@@ -34,15 +36,17 @@ h5{
 	line-height: 20px;
 }
 p {
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
     /*font-family: 'Ubuntu', sans-serif !important;*/
+    font-family: 'Cuprum', sans-serif;
 }
     p.intro {
         font-size: 16px;
         margin: 12px 0 0;
         line-height: 24px;
-        font-family: 'Open Sans', sans-serif;
+        /*font-family: 'Open Sans', sans-serif;*/
         /*font-family: 'Ubuntu', sans-serif !important;*/
+        font-family: 'Cuprum', sans-serif;
     }
 a{ color: #FCAC45;}
 a:hover,
@@ -176,8 +180,9 @@ ul.about-list{ margin: 30px 0 0 ;}
         display: block;
         font-size: 16px;
         line-height: 30px;
-        font-family: 'Open Sans', sans-serif;
+        /*font-family: 'Open Sans', sans-serif;*/
         /*font-family: 'Ubuntu', sans-serif !important;*/
+        font-family: 'Cuprum', sans-serif;
     }
 ul.about-list li span{ 
 	margin-right: 10px;
@@ -491,8 +496,9 @@ label {
     float: left;
     font-size: 12px;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
     /*font-family: 'Ubuntu', sans-serif !important;*/
+    font-family: 'Cuprum', sans-serif;
 }
 #tf-contact .form-control {
 	display: block;
